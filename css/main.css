@@ -4,7 +4,12 @@ html {
 
 h1 {
   font-family: "Blenny";
-  color: #ffff;
+  color: #8d3251;
+}
+
+.subtitle {
+  font-family: "Soleil";
+  color: #f2a173;
 }
 
 body {
@@ -16,10 +21,11 @@ body {
   width: 100%;
 }
 
+
 .banner {
   position: relative;
   overflow: hidden;
-  max-height: 600px;
+  max-height: 400px;
 }
 
 .banner-content {

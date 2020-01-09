@@ -1,0 +1,33 @@
+html {
+  font-family: "Plantin", sans-serif;
+}
+
+h1 {
+  font-family: "Blenny";
+  color: #ffff;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 600px;
+}
+
+.banner-content {
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  text-align: left;
+  bottom: .5rem;
+  max-width: 50em;
+}

@@ -9,7 +9,7 @@ h1 {
 
 .subtitle {
   font-family: "Soleil";
-  color: #f2a173;
+  color: #fff;
 }
 
 body {
@@ -21,11 +21,14 @@ body {
   width: 100%;
 }
 
+.hg-logo {
+  width: 30%;
+}
 
 .banner {
   position: relative;
   overflow: hidden;
-  max-height: 400px;
+  max-height: 450px;
 }
 
 .banner-content {
@@ -38,12 +41,112 @@ body {
   max-width: 50em;
 }
 
+.header-background {
+  background-color: linear-gradient(to bottom, #8d3251 #8d3270);
+}
+
+nav {
+  font-family: 'Soleil', sans-serif;
+  list-style-type: none;
+  border-bottom: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-content {
+  z-index: 1000;
+}
+
+a:hover {
+  color: #f2a173;
+}
+
+.list-item-inline {
+  display: inline-block;
+}
+
+.card-label {
+  font-family: 'Soleil', sans-serif;
+  color: #fff;
+  z-index: 1000;
+}
+
 .card-img {
-  filter: grayscale(100%);
+  filter: grayscale(40%);
   transition: all .2s linear;
 }
 
 .card-img:hover {
   filter: none;
   transform: scale(1.1);
+}
+
+.main-title {
+  line-height: .8;
+  color: #fff;
+}
+
+@media only screen and (min-width: 20em) {
+  .main-title {
+    font-size: 4em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+  }
+
+  .hg-logo {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+  .main-title {
+    font-size: 5em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+  }
+
+  .hg-logo {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+  .main-title {
+    font-size: 7em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+  }
+
+  .hg-logo {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+  .main-title {
+    font-size: 8em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+  }
+
+  .hg-logo {
+    width: 50%;
+  }
+
 }

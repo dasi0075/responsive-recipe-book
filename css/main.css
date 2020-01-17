@@ -79,13 +79,22 @@ a {
   display: inline-block;
 }
 
-.nav-check:checked ˜ .nav-label {
-  background-color:
-}
-
-.nav-label img {
+.nav-open,
+.nav-close {
   display: block;
   width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ˜ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ˜ .nav-label .nav-close {
+  display: block;
 }
 
 a:hover {

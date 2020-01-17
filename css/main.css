@@ -127,24 +127,32 @@ a:hover {
   color: #fff;
 }
 
-.paragraph {
-  columns: 2;
+.servings {
+  line-height: .4em;
 }
 
-
+footer {
+  background-color: #8d3251;
+  color: #fff;
+}
 
 @media only screen and (min-width: 20em) {
   .main-title {
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .subtitle {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .hg-logo {
-    width: 50%;
+    width: 60%;
   }
+
+  .paragraph {
+    columns: 1;
+  }
+
 
 }
 
@@ -159,6 +167,10 @@ a:hover {
 
   .hg-logo {
     width: 50%;
+  }
+
+  .paragraph {
+    columns: 1;
   }
 
 }
@@ -176,6 +188,10 @@ a:hover {
     width: 50%;
   }
 
+  .paragraph {
+    columns: 2;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -189,6 +205,10 @@ a:hover {
 
   .hg-logo {
     width: 50%;
+  }
+
+  .paragraph {
+    columns: 2;
   }
 
 }

@@ -46,6 +46,10 @@ h2 {
   max-width: 50em;
 }
 
+input[type="checkbox"].nav-check + label::before {
+  display: none;
+}
+
 nav {
   font-family: 'Soleil', sans-serif;
   list-style-type: none;
@@ -70,7 +74,15 @@ a {
 
 .nav-check {
   position: absolute;
-  top: -3em;
+  top: -10em;
+}
+
+.nav-check:checked ~ ul {
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
 }
 
 .nav-content {
@@ -91,6 +103,11 @@ a {
 
 .nav-close {
   display: none;
+}
+
+ul {
+  width: 100%;
+  align-items: flex-end;
 }
 
 .nav-list {
@@ -164,7 +181,6 @@ footer {
     columns: 1;
   }
 
-
 }
 
 @media only screen and (min-width: 25em) {
@@ -183,7 +199,6 @@ footer {
   .paragraph {
     columns: 1;
   }
-
 
 }
 

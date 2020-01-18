@@ -17,6 +17,10 @@ body {
   margin: 0;
 }
 
+h2 {
+  color: #8d3251;
+}
+
 .img-banner {
   display: block;
   width: 100%;
@@ -134,10 +138,8 @@ a:hover {
 .preparation {
   line-height: .4em;
   color: #8d3251;
+  font-family: 'Soleil', sans-serif;
 }
-
-
-
 
 footer {
   background-color: #8d3251;

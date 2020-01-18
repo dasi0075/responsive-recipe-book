@@ -136,12 +136,13 @@ a:hover {
 .servings,
 .ingredients,
 .preparation {
-  line-height: .4em;
+  line-height: 0;
   color: #8d3251;
   font-family: 'Soleil', sans-serif;
 }
 
 footer {
+  font-family: 'Soleil', sans-serif;
   background-color: #8d3251;
   color: #fff;
 }

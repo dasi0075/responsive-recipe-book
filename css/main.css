@@ -51,7 +51,6 @@ nav {
   list-style-type: none;
   border-bottom: none;
   padding: 0;
-  background-color: rgba(800, 10, 100, 0.5);
   border-radius: 8px;
 }
 
@@ -144,6 +143,10 @@ a:hover {
   line-height: 0;
   color: #8d3251;
   font-family: 'Soleil', sans-serif;
+}
+
+.paragraph-recipe-1 {
+  columns: 2;
 }
 
 footer {

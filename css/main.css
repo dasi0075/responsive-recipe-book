@@ -64,7 +64,7 @@ a {
   display: hidden;
 }
 
-.nav-check:checked ˜ .nav {
+.nav-check:checked ~ .nav {
   display: block;
 }
 
@@ -80,7 +80,7 @@ a {
 .nav-label {
   cursor: pointer;
   width: 40px;
-  display: inline-block;
+  display: none;
 }
 
 .nav-open,
@@ -93,24 +93,20 @@ a {
   display: none;
 }
 
-.checkbox {
+.nav-list {
+  border-bottom: .1px solid #fff;
+}
+
+.nav-list:hover {
+  background-color: #8d3251;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
   display: none;
 }
 
-.nav-check:checked ˜ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ˜ .nav-label .nav-close {
+.nav-check:checked ~ .nav-label .nav-close {
   display: block;
-}
-
-a:hover {
-  color: #f2a173;
-}
-
-.list-item-inline {
-  display: inline-block;
 }
 
 .card-label {
@@ -143,10 +139,6 @@ a:hover {
   line-height: 0;
   color: #8d3251;
   font-family: 'Soleil', sans-serif;
-}
-
-.paragraph-recipe-1 {
-  columns: 2;
 }
 
 footer {
@@ -192,6 +184,7 @@ footer {
     columns: 1;
   }
 
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -211,6 +204,19 @@ footer {
     columns: 2;
   }
 
+  .nav {
+    width: 100%;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav li {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -228,6 +234,28 @@ footer {
 
   .paragraph {
     columns: 2;
+  }
+
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav ul {
+    flex-wrap: nowrap;
+  }
+
+  .nav li {
+    width: auto;
+    text-align: right;
+  }
+
+  .nav-list {
+    border-bottom: none;
   }
 
 }

@@ -107,13 +107,15 @@ a:hover {
 
 .card-label {
   font-family: 'Soleil', sans-serif;
-  color: #fff;
+  color: #f2a173;
+  position: absolute;
   z-index: 1000;
 }
 
 .card-img {
   filter: grayscale(40%);
   transition: all .2s linear;
+  position: relative;
 }
 
 .card-img:hover {
@@ -127,9 +129,15 @@ a:hover {
   color: #fff;
 }
 
-.servings {
+.servings,
+.ingredients,
+.preparation {
   line-height: .4em;
+  color: #8d3251;
 }
+
+
+
 
 footer {
   background-color: #8d3251;

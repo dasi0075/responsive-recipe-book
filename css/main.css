@@ -65,11 +65,7 @@ a {
 }
 
 .nav {
-  display: hidden;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
+  display: none;
 }
 
 .nav-check {

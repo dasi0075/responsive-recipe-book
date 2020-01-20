@@ -27,7 +27,8 @@ h2 {
 }
 
 .hg-logo {
-  width: 70%;
+  width: 100%;
+  padding-top: 1.3em;
 }
 
 .banner {
@@ -177,6 +178,10 @@ footer {
     columns: 1;
   }
 
+  .hg-logo {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 20em) {
@@ -194,7 +199,7 @@ footer {
   }
 
   .hg-logo {
-    width: 60%;
+    width: 50%;
   }
 
 }
@@ -212,6 +217,11 @@ footer {
   .paragraph {
     columns: 1;
   }
+
+  .hg-logo {
+    width: 40%;
+  }
+
 
 }
 
@@ -251,7 +261,7 @@ footer {
   }
 
   .hg-logo {
-    width: 50%;
+    width: 30%;
   }
 
 }
@@ -263,7 +273,7 @@ footer {
   }
 
   .hg-logo {
-    width: 40%;
+    width: 30%;
   }
 
   .paragraph {

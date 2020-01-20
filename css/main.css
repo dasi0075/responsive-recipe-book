@@ -27,7 +27,7 @@ h2 {
 }
 
 .hg-logo {
-  width: 30%;
+  width: 70%;
 }
 
 .banner {
@@ -44,10 +44,6 @@ h2 {
   text-align: center;
   bottom: .5em;
   max-width: 50em;
-}
-
-input[type="checkbox"].nav-check + label::before {
-  display: none;
 }
 
 nav {
@@ -80,20 +76,26 @@ a {
   background-color: #8d3251;
 }
 
+input[type="checkbox"].nav-check + label::before {
+  display: none;
+}
+
 .nav-content {
   z-index: 1000;
+  top: -20px;
 }
 
 .nav-label {
   cursor: pointer;
   width: 40px;
-  display: none;
+  display: inline-block;
 }
 
 .nav-open,
 .nav-close {
   display: block;
   width: 100%;
+  padding-top: 2em;
 }
 
 .nav-close {
@@ -123,9 +125,13 @@ a:hover {
 
 .card-label {
   font-family: 'Soleil', sans-serif;
-  color: #f2a173;
+  font-size: 1.2em;
+  color: #fff;
+  padding-top: 3em;
+  padding-left: 3em;
   position: absolute;
   z-index: 1000;
+  align-content: center;
 }
 
 .card-img {
@@ -167,10 +173,6 @@ footer {
     font-size: 1em;
   }
 
-  .hg-logo {
-    width: 60%;
-  }
-
   .paragraph {
     columns: 1;
   }
@@ -187,12 +189,12 @@ footer {
     font-size: 1em;
   }
 
-  .hg-logo {
-    width: 60%;
-  }
-
   .paragraph {
     columns: 1;
+  }
+
+  .hg-logo {
+    width: 60%;
   }
 
 }
@@ -204,10 +206,6 @@ footer {
 
   .subtitle {
     font-size: 1.2em;
-  }
-
-  .hg-logo {
-    width: 50%;
   }
 
   .paragraph {
@@ -225,12 +223,22 @@ footer {
     font-size: 1.2em;
   }
 
-  .hg-logo {
+  .paragraph {
+    columns: 2;
+  }
+
+  .nav li {
+    float: left;
     width: 50%;
   }
 
-  .paragraph {
-    columns: 2;
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
+
+  .hg-logo {
+    width: 70%;
   }
 
 }

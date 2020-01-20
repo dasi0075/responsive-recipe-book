@@ -1,14 +1,14 @@
 html {
-  font-family: "Plantin", sans-serif;
+  font-family: 'Plantin', sans-serif;
 }
 
 h1 {
-  font-family: "Blenny";
+  font-family: 'Blenny', sans-serif;
   color: #8d3251;
 }
 
 .subtitle {
-  font-family: "Soleil";
+  font-family: 'Soleil', sans-serif;
   font-size: 1em;
   color: #fff;
 }
@@ -47,7 +47,7 @@ h2 {
 }
 
 nav {
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
   list-style-type: none;
   border-bottom: none;
 }
@@ -102,11 +102,6 @@ input[type="checkbox"].nav-check + label::before {
   display: none;
 }
 
-ul {
-  width: 100%;
-  align-items: flex-end;
-}
-
 a:hover {
   color: #f2a173;
 }
@@ -124,25 +119,29 @@ a:hover {
 }
 
 .card-label {
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
   font-size: 1.2em;
   color: #fff;
-  padding-top: 3em;
-  padding-left: 3em;
+  background-color: rgba(50, 20, 10, .5);
+  border-radius: 8px;
   position: absolute;
   z-index: 1000;
   align-content: center;
 }
 
 .card-img {
-  filter: grayscale(40%);
-  transition: all .2s linear;
   position: relative;
 }
 
 .card-img:hover {
+  filter: saturate(120%);
+  transition: all .2s linear;
+}
+
+.card:hover {
   filter: none;
   transform: scale(1.1);
+  transition: all .2s linear;
 }
 
 .main-title {
@@ -155,16 +154,17 @@ a:hover {
 .preparation {
   line-height: 0;
   color: #8d3251;
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
 }
 
 footer {
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
   background-color: #8d3251;
   color: #fff;
 }
 
 @media only screen and (min-width: 16em) {
+
   .main-title {
     font-size: 2em;
   }
@@ -179,8 +179,8 @@ footer {
 
 }
 
-
 @media only screen and (min-width: 20em) {
+
   .main-title {
     font-size: 3em;
   }
@@ -200,6 +200,7 @@ footer {
 }
 
 @media only screen and (min-width: 25em) {
+
   .main-title {
     font-size: 5em;
   }
@@ -215,8 +216,9 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+
   .main-title {
-    font-size: 6em;
+    font-size: 5em;
   }
 
   .subtitle {
@@ -232,13 +234,24 @@ footer {
     width: 50%;
   }
 
-  .nav-check,
-  .nav-label {
+  .nav-open,
+  .nav-close {
     display: none;
   }
 
+  .nav {
+    display: block;
+    position: static;
+  }
+
+  .nav  li {
+    display: inline-block;
+    float: none;
+    width: auto;
+  }
+
   .hg-logo {
-    width: 70%;
+    width: 50%;
   }
 
 }
@@ -250,11 +263,15 @@ footer {
   }
 
   .hg-logo {
-    width: 50%;
+    width: 40%;
   }
 
   .paragraph {
     columns: 2;
+  }
+
+  .card-label {
+    font-size: .8em;
   }
 
 }

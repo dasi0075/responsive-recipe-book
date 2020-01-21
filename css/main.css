@@ -28,7 +28,6 @@ h2 {
 
 .hg-logo {
   width: 100%;
-  padding-top: 1.3em;
 }
 
 .banner {
@@ -96,7 +95,7 @@ input[type="checkbox"].nav-check + label::before {
 .nav-close {
   display: block;
   width: 100%;
-  padding-top: 2em;
+  padding-top: 1.3em;
 }
 
 .nav-close {

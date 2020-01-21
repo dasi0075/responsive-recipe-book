@@ -239,27 +239,6 @@ footer {
     columns: 2;
   }
 
-  .nav li {
-    float: left;
-    width: 50%;
-  }
-
-  .nav-open,
-  .nav-close {
-    display: none;
-  }
-
-  .nav {
-    display: block;
-    position: static;
-  }
-
-  .nav  li {
-    display: inline-block;
-    float: none;
-    width: auto;
-  }
-
   .hg-logo {
     width: 30%;
   }

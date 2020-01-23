@@ -2,6 +2,12 @@ html {
   font-family: 'Plantin', sans-serif;
 }
 
+.skip-links:focus {
+  background-color: #f3f3;
+  box-shadow: #f3f3;
+  outline: inherit;
+}
+
 h1 {
   font-family: 'Blenny', sans-serif;
   color: #8d3251;

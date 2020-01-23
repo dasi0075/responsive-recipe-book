@@ -19,6 +19,12 @@ h1 {
   color: #fff;
 }
 
+.snaps,
+.filling {
+  font-family: 'Soleil', sans-serif;
+  font-weight: 700;
+}
+
 body {
   margin: 0;
 }

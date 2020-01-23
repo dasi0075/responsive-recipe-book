@@ -126,11 +126,15 @@ a:hover {
   border-radius: 8px;
   position: absolute;
   z-index: 1000;
-  align-content: center;
+}
+
+span {
+  text-align: center;
 }
 
 .card-img {
   position: relative;
+  border-radius: 8px;
 }
 
 .card-img:hover {

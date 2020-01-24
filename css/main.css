@@ -1,5 +1,5 @@
 html {
-  font-family: "Plantin", sans-serif;
+  font-family: Plantin, sans-serif;
 }
 
 .skip-links:focus {
@@ -9,19 +9,19 @@ html {
 }
 
 h1 {
-  font-family: "Blenny", sans-serif;
+  font-family: Blenny, sans-serif;
   color: #8d3251;
 }
 
 .subtitle {
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   font-size: 1em;
   color: #fff;
 }
 
 .snaps,
 .filling {
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   font-weight: 700;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 h2 {
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   color: #8d3251;
 }
 
@@ -60,7 +60,7 @@ h2 {
 }
 
 nav {
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   list-style-type: none;
   border-bottom: none;
 }
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .card-label {
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   font-size: 1.2em;
   color: #fff;
   background-color: rgba(50, 20, 10, .5);
@@ -171,12 +171,12 @@ span {
 .preparation {
   line-height: 0;
   color: #8d3251;
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   font-weight: 700;
 }
 
 footer {
-  font-family: "Soleil", sans-serif;
+  font-family: Soleil, sans-serif;
   background-color: #8d3251;
   color: #fff;
 }

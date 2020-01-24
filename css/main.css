@@ -4,8 +4,8 @@ html {
 
 .skip-links:focus {
   background-color: #f2f2f2;
-  box-shadow: 2px, 3px, 2px, #f2f2f2;
-  outline: inherit;
+  box-shadow: 2px 3px 2px #f2f2f2;
+  outline: #f2f2f2;
 }
 
 h1 {

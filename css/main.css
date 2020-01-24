@@ -2,6 +2,8 @@ html {
   font-family: Plantin, sans-serif;
 }
 
+#banner:focus,
+#nav:focus,
 #main:focus {
   background-color: #c6c6c6;
   box-shadow: 2px 3px 2px #c6c6c6;

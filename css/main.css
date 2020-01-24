@@ -2,10 +2,10 @@ html {
   font-family: Plantin, sans-serif;
 }
 
-.main:focus {
-  background-color: #f2f2f2;
-  box-shadow: 2px 3px 2px #f2f2f2;
-  outline: #f2f2f2;
+#main:focus {
+  background-color: #c6c6c6;
+  box-shadow: 2px 3px 2px #c6c6c6;
+  outline: 3px solid #c6c6c6;
 }
 
 h1 {

@@ -1,27 +1,27 @@
 html {
-  font-family: 'Plantin', sans-serif;
+  font-family: "Plantin", sans-serif;
 }
 
 .skip-links:focus {
-  background-color: #fff;
-  box-shadow: 2px 3px 2px #fff;
+  background-color: #f2f2f2;
+  box-shadow: 2px, 3px, 2px, #f2f2f2;
   outline: inherit;
 }
 
 h1 {
-  font-family: 'Blenny', sans-serif;
+  font-family: "Blenny", sans-serif;
   color: #8d3251;
 }
 
 .subtitle {
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
   font-size: 1em;
   color: #fff;
 }
 
 .snaps,
 .filling {
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
   font-weight: 700;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 h2 {
-  font-family: 'Soleil', sans-serif;
+  font-family: "Soleil", sans-serif;
   color: #8d3251;
 }
 

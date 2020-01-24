@@ -5,9 +5,16 @@ html {
 #banner:focus,
 #nav:focus,
 #main:focus {
-  background-color: #c6c6c6;
-  box-shadow: 2px 3px 2px #c6c6c6;
-  outline: 3px solid #c6c6c6;
+  background-color: #f2f2f2;
+  box-shadow: 2px 3px 2px #f2f2f2;
+  outline: 3px solid black;
+}
+
+#banner:hover,
+#main:hover {
+  background-color: #f2f2f2;
+  box-shadow: 2px 3px 2px #f2f2f2;
+  outline: 3px solid #f2f2f2;
 }
 
 h1 {

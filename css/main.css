@@ -4,7 +4,7 @@ html {
 
 #skip a:focus {
   background-color: #f2f2f2;
-  box-shadow: 2px 3px 2px #f2f2f2;
+  box-shadow: 2px 3px 2px #c6c6c6;
   outline: 3px solid #000;
 }
 
@@ -12,7 +12,7 @@ html {
 #nav:focus,
 #main:focus {
   background-color: #f2f2f2;
-  box-shadow: 2px 3px 2px #f2f2f2;
+  box-shadow: 2px 3px 2px #c6c6c6;
   outline: 3px solid #000;
 }
 

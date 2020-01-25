@@ -193,6 +193,11 @@ span {
   transition: all .2s linear;
 }
 
+.card:focus {
+  box-shadow: 2px 3px 2px #c6c6c6;
+  outline: 3px solid #000;
+}
+
 .main-title {
   line-height: .8;
   color: #fff;

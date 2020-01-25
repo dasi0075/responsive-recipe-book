@@ -17,6 +17,10 @@ html {
   outline: 3px solid #f2f2f2;
 }
 
+a:focus {
+  box-shadow: 2px 3px 2px #000;
+}
+
 h1 {
   font-family: Blenny, sans-serif;
   color: #8d3251;

@@ -25,6 +25,7 @@ main:focus {
 a:focus {
   box-shadow: 2px 3px 2px #000;
   outline: 3px solid #000;
+    color: #f2a173;
 }
 
 .nav a:focus {
@@ -151,10 +152,6 @@ input[type="checkbox"].nav-check + label::before {
 }
 
 a:hover {
-  color: #f2a173;
-}
-
-a:focus {
   color: #f2a173;
 }
 

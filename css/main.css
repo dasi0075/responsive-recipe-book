@@ -16,7 +16,7 @@ html {
   outline: 3px solid #000;
 }
 
-main:hover {
+main:focus {
   background-color: #f2f2f2;
   box-shadow: 2px 3px 2px #000;
   outline: 3px solid #000;
@@ -33,6 +33,9 @@ a:focus {
 }
 
 .skip-links a:focus {
+  background-color: #f2f2f2;
+  box-shadow: 2px 3px 2px #c6c6c6;
+  outline: 3px solid #000;
   top: 0;
 }
 

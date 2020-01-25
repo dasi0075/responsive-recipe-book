@@ -2,6 +2,12 @@ html {
   font-family: Plantin, sans-serif;
 }
 
+#skip a:focus {
+  background-color: #f2f2f2;
+  box-shadow: 2px 3px 2px #f2f2f2;
+  outline: 3px solid #000;
+}
+
 #banner:focus,
 #nav:focus,
 #main:focus {
